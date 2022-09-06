@@ -9,7 +9,8 @@ public class Main implements KeyListener {
 
     JLabel countLabel = new JLabel("0");
     Color backgroundColor = new Color(40, 40, 40);
-    Color labelColor = new Color(250, 189, 47);
+    Color labelColor = new Color(251, 191, 53);
+    // 250, 189, 47
 
     public static void main(String[] args) {
         Main main = new Main();
@@ -20,7 +21,7 @@ public class Main implements KeyListener {
         // window frame set up
         JFrame window = new JFrame();
         window.setVisible(true);
-        window.setSize(300, 200);
+        window.setSize(250, 150);
         window.setTitle(windowTitle);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.addKeyListener(this);
@@ -30,7 +31,7 @@ public class Main implements KeyListener {
         // count label set up
         countLabel.setHorizontalAlignment(JLabel.CENTER);
         countLabel.setVerticalAlignment(JLabel.CENTER);
-        countLabel.setFont(new Font("Arial", Font.BOLD, 65));
+        countLabel.setFont(new Font("Arial", Font.BOLD, 60));
         countLabel.setForeground(labelColor);
 
         // add label to frame
